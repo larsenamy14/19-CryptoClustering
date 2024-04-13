@@ -1,10 +1,10 @@
 # Process
-Step 1: Prepare the data using StandardScaler()
-Step 2: Find the best value of k using the original scaled dataframe
-Step 3: Cluster cryptocurrencies with K-means using the original scaled dataframe
-Step 4: Optimize the cluster with Principal Component Analysis (PCA)
-Step 5: Find the best value of k using the PCA data
-Step 6: Cluster cryptocurrencies with K-means using the PCA data
+### Step 1: Prepare the data using StandardScaler()
+### Step 2: Find the best value of k using the original scaled dataframe
+### Step 3: Cluster cryptocurrencies with K-means using the original scaled dataframe
+### Step 4: Optimize the cluster with Principal Component Analysis (PCA)
+### Step 5: Find the best value of k using the PCA data
+### Step 6: Cluster cryptocurrencies with K-means using the PCA data
 
 # Conclusion: 
 The impact of using fewer features to cluster the data using K-Means didn't have a huge impact on the elbow curve - both graphs have nearly identical slopes, although the graph that used the PCA modeled data had lower inertia values for each value of k. 
