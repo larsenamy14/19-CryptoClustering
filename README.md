@@ -17,7 +17,7 @@ Cluster cryptocurrencies with K-means using the PCA data
 ![image](https://github.com/user-attachments/assets/77835ffd-eef4-407d-b3a1-81d5cde1ef4f)
 
 # Conclusion
-The impact of using fewer features to cluster the data using K-Means didn't have a huge impact on the elbow curve - both graphs have nearly identical slopes, although the graph that used the PCA modeled data had lower inertia values for each value of k. 
+The impact of using fewer features to cluster the data using K-Means didn't have a huge effect on the elbow curve - both graphs have nearly identical slopes, although the graph that used the PCA modeled data had lower inertia values for each value of k. 
 In the clustered scatter plot, the impact of using fewer features to cluster the data is that the different groups are further away from eachother and easier to distinguish as separate groups. PCA group 0, 1, and 2 are found in different areas of the graph while the original clusters 0, 1, and 2 are very close together and only cluster 2 is clearly separated from the mass of the data points. 
 
 # Challenges
